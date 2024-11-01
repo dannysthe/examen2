@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e86625;
+    color: #333;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #2747b1;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+section, main {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 1000px;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section h2, main h2 {
+    color: #5b25ff;
+    text-align: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background-color: #7211b8;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #d02521;
+}
+
+.section-container {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.section-container > div {
+    flex: 1 1 300px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.section-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-container p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.blog-entry, .testimonial {
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+    margin-top: 1rem;
+}
+
+.blog-entry h2, .testimonial h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.blog-entry p, .testimonial p {
+    font-size: 0.9rem;
+    color: #666;
+}
